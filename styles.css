@@ -1,0 +1,54 @@
+h1 {
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px;
+}
+
+div {
+    display: flex;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    /* enable flexbox layout */
+    flex-direction: column;
+    /* stack items vertically */
+    align-items: center;
+    /* center items horizontally */
+    justify-content: center;
+}
+
+#author {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+}
+
+#new-quote {
+    display: flex;
+    background-color: #4c6faf;
+    /* Green */
+    border: none;
+    justify-content: center;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#new-quote:hover {
+    background-color: #3e8e41;
+}
+
+#new-quote {
+    display: flex;
+    justify-content: center;
+}
